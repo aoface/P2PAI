@@ -2,9 +2,12 @@
 
 基于 P2P 网络的分布式 AI 推理训练一体化架构
 
-> 本仓库提供两份核心文档：
+> 本仓库提供三份核心交付：
 > - 本 `README.md`：架构总体设计 + 可工程落地的技术实施方案
 > - [`REQUIREMENTS.md`](./REQUIREMENTS.md)：项目需求规格说明书（PRD/SRS）
+> - [`examples/p2pai-demo/`](./examples/p2pai-demo/)：**最小可运行 demo** — 基于 `distilgpt2 (82M)` 的三节点 P2P 训推一体参考实现，
+>   演示 Ed25519 PeerID/签名、gossip 广播、Streaming LoRA 单流训推一体、D-PSGD 聚合、任务级临时 Coordinator、S1/S2/S3 分级元数据。
+>   `bash examples/p2pai-demo/scripts/run_cluster.sh` 即可在普通笔记本 CPU 上跑通端到端流程。
 
 ---
 
