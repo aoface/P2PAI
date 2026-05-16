@@ -1,0 +1,8 @@
+The peer-to-peer network enables decentralized AI inference.
+Streaming LoRA allows training during inference in a single computation flow.
+Edge devices contribute idle compute to a global model.
+Federated learning preserves user privacy by keeping data local.
+Distributed coordinators orchestrate dynamic task groups.
+Holographic redundancy in transformers tolerates missing parameters.
+Sensitivity-aware sharding keeps critical weights resident on every node.
+Gossip protocols propagate gradient updates without a central server.

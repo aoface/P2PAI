@@ -1,0 +1,6 @@
+.p2pai-demo/
+logs/
+__pycache__/
+*.pyc
+*.pem
+.venv/
