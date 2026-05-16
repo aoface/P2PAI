@@ -1,0 +1,18 @@
+name = "node3"
+listen_host = "127.0.0.1"
+listen_port = 7803
+bootstrap_peers = ["127.0.0.1:7801", "127.0.0.1:7802"]
+data_dir = ".p2pai-demo/node3"
+model_id = "distilgpt2"
+lora_rank = 4
+lr = 1e-3
+aggregate_interval_steps = 4
+
+[policy]
+max_cpu_percent = 40
+max_ram_mb = 4096
+max_up_kbps = 2048
+max_down_kbps = 8192
+allow_training = true
+allow_inference = true
+quiet_hours = []

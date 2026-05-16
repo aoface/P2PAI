@@ -1,0 +1,6 @@
+torch==2.5.1
+transformers==4.46.3
+peft==0.13.2
+cryptography>=42.0
+pydantic>=2.6
+tomli>=2.0; python_version < "3.11"
